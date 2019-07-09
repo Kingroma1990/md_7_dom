@@ -70,7 +70,7 @@
           </p>
         </div>
         <div class="contact__form contact__wrapper">
-          <form class="form" action="#">
+          <form id="form" action="#">
             <input
               id="username"
               type="text"
@@ -89,13 +89,14 @@
           </form>
           <div class="feedback">
             <textarea
+            form="form"
               name="feedback"
               id="feedback"
               placeholder="Your message *"></textarea>
           </div>
         </div>
         <div class="contact__wrapper button">
-          <button class="message">Send Message</button>
+          <button type="submit" form="form" class="message">Send Message</button>
         </div>
       </section>
     </main>
